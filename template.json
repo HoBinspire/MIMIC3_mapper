@@ -1,0 +1,29 @@
+{
+    "patient_id": 
+    {
+        "expire_flag": "bool",
+        "visits":  
+        [
+            {
+                "visit_id": "str",
+                "admittime": "date",
+                "dischtime": "date",
+                "deathtime": "date",
+
+                "procedures": "list",
+                "prescriptions": "list",
+                "diagnoses": "list",
+
+                "labevent": [
+                    {
+                        "item": "str",
+                        "value": "str",
+                        "flag": "str",
+                        "itemcontent": "str"
+                    }
+                ]
+            }
+        ]
+    }  
+    
+}
